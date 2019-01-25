@@ -1,104 +1,254 @@
-html {
-    font-size: 62.5%;
-    font-family: serif;
+/* star1 */
+
+.wrapper{
+  width: 250px;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 30x;
+  height: auto;
+  font-size: 180px;
+
+}
+.wrapper i{
+  color: red;
+  animation: star 0.5s linear infinite;
+  margin-top: 35%;
+}
+  @keyframes star{
+    0%{transform: scale()}
+    50%{transform: scale(0.9,1)}
+    /* 100%{transform: scale(0.9,0.9)} */
   }
-  body {
-    font-size: 1.8rem;
-    line-height: 1.618;
-    max-width: 38em;
-    margin: auto;
-    color: #4a4a4a;
-    background-color: #f9f9f9;
-    padding: 13px;
+  /* star2 */
+
+  .wrapper2{
+    width: 250px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 30x;
+    height: auto;
+    font-size: 180px;
+  
   }
-  @media (max-width: 684px) {
-    body {
-      font-size: 1.53rem;
+  .wrapper2 i{
+    color: red;
+    animation: star2 0.5s linear infinite;
+    margin-top: 35%;
+  }
+    @keyframes star2{
+      0%{transform: scale()}
+      50%{transform: scale(0,1)}
     }
-  }
-  @media (max-width: 382px) {
-    body {
-      font-size: 1.35rem;
+
+      /*star3*/
+
+      .wrapper3{
+        width: 250px;
+        margin: 0 auto;
+        text-align: center;
+        line-height: 30x;
+        height: auto;
+        font-size: 180px;
+      
+      }
+      .wrapper3 i{
+        color: red;
+        animation: star3 0.5s;
+        margin-top: 35%;
+        animation-duration: 5000ms;
+        animation-iteration-count: infinite;
+        animation-duration: 2.5s;
+        animation-direction: alternate;
+      }
+
+      @keyframes star3 {
+        from {
+          transform: scale(1.5);
+            transform:rotate(0deg);
+        }
+        to {
+          transform: scale(1.5);
+            transform:rotate(360deg);
+        }
     }
+
+    /* star4 */
+
+  .wrapper4 {
+    width: 250px;
+    margin: 0 auto;
+    text-align: center;
+    /* min-height: 500px; */
+    line-height: 40px;
+    height: auto;
+    font-size: 185px;
   }
-  h1, h2, h3, h4, h5, h6 {
-    line-height: 1.1;
-    font-family: Verdana, Geneva, sans-serif;
-    font-weight: 700;
-    overflow-wrap: break-word;
-    word-wrap: break-word;
-    -ms-word-break: break-all;
-    word-break: break-word;
-    -ms-hyphens: auto;
-    -moz-hyphens: auto;
-    -webkit-hyphens: auto;
-    hyphens: auto;
-  }
-  h1 {
-    font-size: 2.35em;
-  }
-  h2 {
-    font-size: 2em;
-  }
-  h3 {
-    font-size: 1.75em;
-  }
-  h4 {
-    font-size: 1.5em;
-  }
-  h5 {
-    font-size: 1.25em;
-  }
-  h6 {
-    font-size: 1em;
+  .wrapper4 i{
+    color: red ;
+    animation: wrapper4 0.5s linear infinite;
+    margin-top: 35%;
   }
   
-  /* RESET LAYOUT AND ADD COLORS */
+    
+     @keyframes wrapper4 {
+      0%{transform: scale(1,1)}
+      50%{transform: scale(0.9,0)}
+     }
+
+     /* star5 */
+
+     .wrapper5 {
+      width: 250px;
+      margin: 0 auto;
+      text-align: center;
+      /* min-height: 500px; */
+      line-height: 40px;
+      height: auto;
+      font-size: 185px;
+    }
+    .wrapper5 i{
+      color: red ;
+      animation: wrapper5 0.5s linear infinite;
+      margin-top: 35%;
+    }
+    
+      
+       @keyframes wrapper5 {
+        0%{transform: scale(1,0.9)}
+        50%{transform: scale(1.2,1.2)}
+       }
+
+
+       /*star6*/
+
+       .wrapper6 {
+        width: 250px;
+        margin: 0 auto;
+        text-align: center;
+        line-height: 40px;
+        height: auto;
+        font-size: 185px;
+      }
+      .wrapper6 i{
+        color: red ;
+        animation: wrapper6 0.6s linear infinite;
+        margin-top: 35%;
+      }
+      
+        
+         @keyframes wrapper6 {
+          0%{transform: scale(2.0.9)}
+          50%{transform: scale(0.9,1.2)}
+          100%{transform: scale(0.9,1.2)}
+          50%{transform: scale(0.9,1.2)}
+         }
+
+  /* star7 */
+    
+  
+  .wrapper7{
+         width: 250px;
+        margin: 0 auto;
+        text-align: center;
+        line-height: 40px;
+        height: auto;
+        font-size: 205px;
+  
+  }
+  .wrapper7 i{
+    color: red;
+    animation: wrapper7 0.5s linear infinite;
+    margin-top: 35%;
+  }
+
+  @keyframes wrapper7{
+    0%{transform: scale()}
+    100%{transform: scale(0.9,0.9)}
+    50%{transform: scale(1.0,0.9)}
+  }
+  
+    /*star8*/
+    .wrapper8 {
+      width: 250px;
+      margin: 0 auto;
+      text-align: center;
+      line-height: 40px;
+      height: auto;
+      font-size: 185px;
+    }
+    .wrapper8 i{
+      color: red ;
+      animation: wrapper8 0.9s linear infinite;
+      margin-top: 35%;
+    }
+
+    @keyframes wrapper8{
+      0%{transform: scale()}
+      100%{transform: scale(0.9,0.9)}
+      100%{transform: scale(0.4,0.9)}
+      40%{transform: scale(0.9,0.5)}
+      /* 50%{transform: scale(0.9,0.9)} */
+  }
+    /* star9 */
+  .wrapper9{
+    width: 250px;
+   margin: 0 auto;
+   text-align: center;
+   line-height: 40px;
+   height: auto;
+   font-size: 205px;
+
+}
+        .wrapper9 i{
+        color: red;
+        animation: wrapper9 0.9s linear infinite;
+        margin-top: 35%;
+        } 
+
+        @keyframes wrapper9{
+        0%{transform: scale()}
+        100%{transform: scale(0.9,0.9)}
+        50%{transform: scale(0.6,0.9)}
+        100%{transform: scale(0.8,0.5)}
+    }
+
+
+    /* star10 */
+
+    .wrapper10{
+      width: 250px;
+      margin: 0 auto;
+      text-align: center;
+      line-height: 30x;
+      height: auto;
+      font-size: 180px;
+    
+    }
+    .wrapper10 i{
+      color: red;
+      animation: wrapper10 0.9s linear infinite;
+      margin-top: 35%;
+    }
+      @keyframes wrapper10{
+        0%{transform: scale()}
+        0%{transform: scale(0.9,1)}
+        /* 100%{transform: scale(0.9,0.9)} */
+        0% {
+          transform: scale(.3);
+          background-color: rgb(245, 248, 248);
+          border-radius: 100%;
+        }
+      }
+
+
+  
+  body,
+  html {
+    top: 100%;
+  }
+  
   body {
-    margin: 0;
-    padding: 0;
-    max-width: inherit;
-    background: #fff;
-    color: #4a4a4a;
-  }
-  #container .main {
-      position: relative;
-      float: left;
-  }
-  #center {
-      padding: 10px 20px;
-      width: 100%;
-  }
-  #left {
-    width: 10px 20px;
-    padding: 0 10px;
-    right: 240px;
-    margin-left: -100%;
-  }
-  #right {
-      width: 130px;
-      padding: 0 10px;
-      margin-right: -190px;
-  }
-  #folder {
-      clear: both;
-  }
-  * html #left {
-    left: 150px;         
-  }
-  header, footer {
-    font-size: large;
-    text-align: center;
-    padding: 0.3em 0;
-    background-color: #4a4a4a;
-    color: #f9f9f9;
-  }
-  nav {
-    background: #eee;
-  }
-  main {
-    background: #f9f9f9;
-  }
-  aside {
-    background: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
